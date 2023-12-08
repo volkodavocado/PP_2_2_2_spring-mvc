@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class CarServiceImpl implements CarService {
 
-    public List<Car> requestedCars(List<Car> list, int number) {
+    public List<Car> requestedCars(List<Car> list, Integer number) {
         if (number == 0 || number > 5) {
             return list;
         } else {
